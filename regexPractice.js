@@ -9,3 +9,11 @@ let theOtherMatch = /./.test(c);
 console.log(match);
 console.log(otherMatch);
 console.log(theOtherMatch);
+
+
+//word boundary
+//any word containing the word "word", not case sensitive
+
+var string = "aword";
+
+let word = /\bword\b, i/.test(string);
