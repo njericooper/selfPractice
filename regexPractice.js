@@ -17,3 +17,4 @@ console.log(theOtherMatch);
 var string = "aword";
 
 let word = /\bword\b, i/.test(string);
+console.log(word);
