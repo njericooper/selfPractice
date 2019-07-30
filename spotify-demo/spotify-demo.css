@@ -1,0 +1,32 @@
+body, html {
+    background-color: black;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+img {
+    height: 10rem;
+    width: 10rem;
+    object-fit: cover;
+    padding-top: 5%;
+    padding-right: 1em;
+}
+
+.container {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.row1 .row2{
+    flex-flow: row nowrap;
+    
+}
+
+@media only screen and (min-width: 700px) {
+    img {
+        height: 40vh;
+        width: 30vw;
+    }
+}
