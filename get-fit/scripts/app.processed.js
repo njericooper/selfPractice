@@ -32707,12 +32707,12 @@
 	  value: true
 	});
 	var config = {
-	  apiKey: "AIzaSyCR_gdWO1dtRqPLE5Vo7RNGoPi0ceG0dRs",
-	  authDomain: "health-tracker-ce950.firebaseapp.com",
-	  databaseURL: "https://health-tracker-ce950.firebaseio.com",
-	  projectId: "health-tracker-ce950",
-	  storageBucket: "",
-	  messagingSenderId: "259382991432"
+		apiKey: "AIzaSyAsdOe8IXzZ3Xm8MApQ3pV9FcA0RWBMgzM",
+		authDomain: "get-fit-4cf60.firebaseapp.com",
+		databaseURL: "https://get-fit-4cf60.firebaseio.com",
+		projectId: "get-fit-4cf60",
+		storageBucket: "get-fit-4cf60.appspot.com",
+		messagingSenderId: "981830839534",
 	};
 	firebase.initializeApp(config);
 
