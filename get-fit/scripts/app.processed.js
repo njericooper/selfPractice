@@ -32562,7 +32562,7 @@
 	        _react2.default.createElement(
 	          "h1",
 	          null,
-	          "Food Log"
+	          "Get Fit"
 	        ),
 	        this.state.user ? _react2.default.createElement(
 	          "div",
@@ -32649,7 +32649,7 @@
 	          _react2.default.createElement(
 	            "p",
 	            null,
-	            "Log in above to use the Food Log."
+	            "Log in."
 	          )
 	        ),
 	        _react2.default.createElement(

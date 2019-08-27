@@ -4,7 +4,7 @@ html {
 }
 
 html {
-  font-size: 14px;
+  font-size: .8rem;
 }
 
 @media screen and (min-width: 320px) {
@@ -15,7 +15,7 @@ html {
 
 @media screen and (min-width: 1200px) {
   html {
-    font-size: 18px;
+    font-size: 1.2rem;
   }
 }
 
@@ -28,17 +28,12 @@ h6 {
   font-family: 'Roboto Condensed', sans-serif;
   line-height: 1.1;
   margin: 0 0 1rem 0;
-  color: #FF9900;
+  color: black;
 }
 
 h1,
 .h1 {
   font-size: 2.48832rem;
-}
-
-h1,
-.h1 {
-  font-size: 34.83648px;
 }
 
 @media screen and (min-width: 320px) {
@@ -238,7 +233,6 @@ th {
 .weekly-log {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[7];
   grid-template-columns: repeat(7, 1fr);
   grid-gap: 10px;
 }

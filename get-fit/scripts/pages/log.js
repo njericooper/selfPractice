@@ -194,7 +194,7 @@ class Log extends Component {
               </form>
             </div>
           : <div>
-              <p>Log in above to calculate calories.</p>
+              <p>Log in.</p>
             </div>}
 
         <h2>This Week (total calories: {this.state.weekTotalCalories})</h2>
