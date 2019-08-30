@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom'; 
 
-import Log from './pages/log.js';
+import Log from './log'; 
 var twilio = require('twilio');
 
 
