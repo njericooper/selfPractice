@@ -1,0 +1,19 @@
+*-debug.log
+*-error.log
+/.nyc_output
+/dist
+/tmp
+/yarn.lock
+node_modules
+coverage
+ZORK1.DAT
+*.glksave
+twilio-cli-*.tgz
+.DS_Store
+twilio.env
+*.env
+.env
+.history
+
+### Backup package.json files created during release ###
+*.bak

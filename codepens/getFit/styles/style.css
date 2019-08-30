@@ -1,0 +1,23 @@
+html, body {
+    font-family: 'Open Sans', sans-serif;
+    height: 100%;
+    margin: 0;
+}
+
+.title{
+    font-size: 45px;
+    text-align: center;
+    padding: 5%;
+}
+
+.info {
+    display: flex;
+    flex-flow: column wrap;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    line-height: 30px;
+}
+
