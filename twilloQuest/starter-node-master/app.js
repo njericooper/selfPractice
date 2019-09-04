@@ -1,9 +1,12 @@
 var createError = require('http-errors');
-var express = require('express');
+const http = require('http');
+const express= require('express');
+const MessagingResponse = require('twilio').twiml.MessagingResponse;
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 var twilio = require('twilio');
+require('dotenv').config();
 
 // Load configuration information from system environment variables.
 var TWILIO_ACCOUNT_SID = process.env.TWILIO_ACCOUNT_SID,
@@ -32,7 +35,7 @@ app.get('/', function(req, res, next) {
 
 // handle a POST request to send a text message. 
 // This is sent via ajax on our home page
-app.post('/message', function(req, res, next) {
+app.post('/message', function(req, res,) { // /message
   // Use the REST client to send a text message
   client.messages.create({
     to: req.body.to,
