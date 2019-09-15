@@ -10,6 +10,24 @@ var args = require("minimist")( process.argv.slice(2), {
 } );
 console.log(args);
 
+if (args.help) {
+    printHelp();
+}
+
+else if(args.file){
+    console.log(args.file);
+} else {
+    error("Incorrect usage."), true;
+}
+
+function error (msg, includehelp = false) {
+    console.error(msg);
+    if(includehelp) {
+        console.log("");
+        printHelp();
+    }
+}
+
 //******** */
 
 function printHelp() {
