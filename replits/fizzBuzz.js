@@ -6,7 +6,7 @@ For each multiple of 5, print "Buzz" instead of the number.
 
 For numbers which are multiples of both 3 and 5, print "FizzBuzz" instead of the number. */
 
-function fizzBuss(numbers) {
+/*function fizzBuss(numbers) {
     var num = 1;
     var list;
 
@@ -16,4 +16,10 @@ console.log(list);
 num++;
 }
 }
-console.log(fizzBuss());
+console.log(fizzBuss()); */
+
+//shortest answer
+
+var x=1,y;
+while(x<=100){console.log(y=(x%3==0?x%5==0?"FizzBuzz":"Fizz":x%5==0?"Buzz":x));x++;}
+
