@@ -9,7 +9,6 @@ var args = require("minimist")( process.argv.slice(2), {
     string: [ "file" ]
 } );
 console.log(args);
-
 if (args.help) {
     printHelp();
 }
