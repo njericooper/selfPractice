@@ -13,4 +13,4 @@ var bubbleSort = nums => {
     return nums;
 };
 
-console.log(bubbleSort[5, 4, 7, 2]);
+console.log(bubbleSort([3, 5, 1, 6]));
