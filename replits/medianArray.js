@@ -5,10 +5,11 @@ var findMedianSortedArrays = function(nums1, nums2) {
     sorted = nums3.sort();
     if((sorted.length) % 2 === 1) { // is an odd number
         var middle = sorted[Math.floor((sorted.length - 1) / 2)];
+        return middle;
     }
-    if((sorted.length) % 2 === 0) { // is an even number
-        var middle = sorted[Math.floor((sorted.length - 1) / 2)];
-    }
+    else ((sorted.length) % 2 === 0) { // is an even number
+        var middleEven = sorted[Math.floor((sorted.length - 1) + (sorted)/ 2)];
+    } 
 
     return middle;
 };
