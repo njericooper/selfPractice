@@ -1,17 +1,12 @@
 var findMedianSortedArrays = function(nums1, nums2) {
-    nums1 = [1,3];
-    nums2 = [2];
-    nums3 = nums1.concat(nums2);
-    sorted = nums3.sort();
-    if((sorted.length) % 2 === 1) { // is an odd number
-        var middle = sorted[Math.floor((sorted.length - 1) / 2)];
-        return middle;
+    var compare = (i,j) => {
+        return i-j;
     }
-    else ((sorted.length) % 2 === 0) { // is an even number
-        var middleEven = sorted[Math.floor((sorted.length - 1) + (sorted)/ 2)];
-    } 
-
-    return middle;
+    var arr = nums1.concat(nums2).sort(compare);
+        if(arr.length % 2 == 0) {
+            return (arr[arr.length/2 - 1]+ arr[arr.length/2])/2;
+        }
+        return arr[Math.floor(arr.length/2)];
 };
 
 console.log(findMedianSortedArrays());
